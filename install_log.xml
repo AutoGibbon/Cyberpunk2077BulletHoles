@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstalLog Project="PersistentBulletHoles" Build_date="13/10/2023 13:27:27">
+  <Files>
+    <Directory Path="F:\GOG\Cyberpunk 2077\archive">
+      <Directory Path="F:\GOG\Cyberpunk 2077\archive\pc">
+        <Directory Path="F:\GOG\Cyberpunk 2077\archive\pc\mod">
+          <file>F:\GOG\Cyberpunk 2077\archive\pc\mod\PersistentBulletHoles.archive</file>
+        </Directory>
+      </Directory>
+    </Directory>
+  </Files>
+</InstalLog>

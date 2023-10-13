@@ -1,0 +1,109 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.11.0",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2000,
+    "ExportedDateTime": "2023-10-13T23:18:12.8760945Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "E:\\Tools\\mods\\cp77\\tools\\proj\\PersistentBulletHoles\\source\\archive\\base\\fx\\weapons\\impacts\\metal_car\\large_cal\\imp_metal_car_decal_lc.effect"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "worldEffect",
+      "cookingPlatform": "PLATFORM_PC",
+      "effectLoops": [],
+      "events": [
+        {
+          "HandleId": "0",
+          "Data": {
+            "$type": "effectTrackItemDecal",
+            "additionalRotation": 1,
+            "atlasFrameEnd": -1,
+            "atlasFrameStart": -1,
+            "decalRenderMode": "DRM_ObjectType",
+            "emissiveScale": null,
+            "fadeInTime": 0,
+            "fadeOutTime": 15,
+            "horizontalFlip": 0,
+            "isAttached": 1,
+            "isStretchEnabled": 0,
+            "material": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\fx\\weapons\\impacts\\metal\\imp_metal_mat.mi"
+              },
+              "Flags": "Default"
+            },
+            "normalsBlendingMode": "AlphaBlending",
+            "normalThreshold": 15,
+            "orderPriority": "Priority3",
+            "randomAtlasing": 1,
+            "randomRotation": 1,
+            "ruid": "923965123753934848",
+            "scale": {
+              "HandleId": "1",
+              "Data": {
+                "$type": "CEvaluatorVectorConst",
+                "freeAxes": "FVA_Three",
+                "spill": 1,
+                "value": {
+                  "$type": "Vector4",
+                  "W": 1,
+                  "X": 0.0799999982,
+                  "Y": 0.0799999982,
+                  "Z": 0.400000006
+                }
+              }
+            },
+            "surfaceType": "ROT_Vehicle",
+            "timeBegin": 0,
+            "timeDuration": 300,
+            "verticalFlip": 0
+          }
+        }
+      ],
+      "inputParameterNames": [],
+      "length": 300,
+      "name": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "trackRoot": {
+        "HandleId": "2",
+        "Data": {
+          "$type": "effectTrackGroup",
+          "componentName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "None"
+          },
+          "tracks": [
+            {
+              "HandleId": "3",
+              "Data": {
+                "$type": "effectTrack",
+                "items": []
+              }
+            },
+            {
+              "HandleId": "4",
+              "Data": {
+                "$type": "effectTrack",
+                "items": [
+                  {
+                    "HandleRefId": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "EmbeddedFiles": []
+  }
+}

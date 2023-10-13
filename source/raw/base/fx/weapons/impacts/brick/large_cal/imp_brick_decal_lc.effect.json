@@ -1,0 +1,120 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.11.0",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2000,
+    "ExportedDateTime": "2023-10-13T23:18:12.7421747Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "E:\\Tools\\mods\\cp77\\tools\\proj\\PersistentBulletHoles\\source\\archive\\base\\fx\\weapons\\impacts\\brick\\large_cal\\imp_brick_decal_lc.effect"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "worldEffect",
+      "cookingPlatform": "PLATFORM_PC",
+      "effectLoops": [],
+      "events": [
+        {
+          "HandleId": "0",
+          "Data": {
+            "$type": "effectTrackItemDecal",
+            "additionalRotation": 1,
+            "atlasFrameEnd": -1,
+            "atlasFrameStart": -1,
+            "decalRenderMode": "DRM_AllStatic",
+            "emissiveScale": null,
+            "fadeInTime": 0,
+            "fadeOutTime": 15,
+            "horizontalFlip": 0,
+            "isAttached": 0,
+            "isStretchEnabled": 0,
+            "material": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\fx\\weapons\\impacts\\brick\\imp_brick_mat.mi"
+              },
+              "Flags": "Default"
+            },
+            "normalsBlendingMode": "AlphaBlending",
+            "normalThreshold": 15,
+            "orderPriority": "Priority3",
+            "randomAtlasing": 1,
+            "randomRotation": 1,
+            "ruid": "923965123753934848",
+            "scale": {
+              "HandleId": "1",
+              "Data": {
+                "$type": "CEvaluatorVectorRandomUniform",
+                "freeAxes": "FVA_Three",
+                "lockW": 0,
+                "lockX": 1,
+                "lockY": 1,
+                "lockZ": 0,
+                "max": {
+                  "$type": "Vector4",
+                  "W": 0,
+                  "X": 0.140000001,
+                  "Y": 0.140000001,
+                  "Z": 0.400000006
+                },
+                "min": {
+                  "$type": "Vector4",
+                  "W": 0,
+                  "X": 0.100000001,
+                  "Y": 0.100000001,
+                  "Z": 0.400000006
+                },
+                "spill": 1
+              }
+            },
+            "surfaceType": "ROT_Static",
+            "timeBegin": 9.99999997E-07,
+            "timeDuration": 300,
+            "verticalFlip": 0
+          }
+        }
+      ],
+      "inputParameterNames": [],
+      "length": 300,
+      "name": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "trackRoot": {
+        "HandleId": "2",
+        "Data": {
+          "$type": "effectTrackGroup",
+          "componentName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "None"
+          },
+          "tracks": [
+            {
+              "HandleId": "3",
+              "Data": {
+                "$type": "effectTrack",
+                "items": []
+              }
+            },
+            {
+              "HandleId": "4",
+              "Data": {
+                "$type": "effectTrack",
+                "items": [
+                  {
+                    "HandleRefId": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "EmbeddedFiles": []
+  }
+}

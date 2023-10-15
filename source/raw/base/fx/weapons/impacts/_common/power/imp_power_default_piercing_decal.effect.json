@@ -3,7 +3,7 @@
     "WolvenKitVersion": "8.11.0",
     "WKitJsonVersion": "0.0.8",
     "GameVersion": 2000,
-    "ExportedDateTime": "2023-10-13T23:18:12.9639624Z",
+    "ExportedDateTime": "2023-10-15T16:38:37.0823616Z",
     "DataType": "CR2W",
     "ArchiveFileName": "E:\\Tools\\mods\\cp77\\tools\\proj\\PersistentBulletHoles\\source\\archive\\base\\fx\\weapons\\impacts\\_common\\power\\imp_power_default_piercing_decal.effect"
   },
@@ -2320,9 +2320,9 @@
                           "spill": 1,
                           "value": {
                             "$type": "Vector4",
-                            "W": -0,
-                            "X": -0,
-                            "Y": -0,
+                            "W": 0,
+                            "X": 0,
+                            "Y": 0,
                             "Z": -1
                           }
                         }

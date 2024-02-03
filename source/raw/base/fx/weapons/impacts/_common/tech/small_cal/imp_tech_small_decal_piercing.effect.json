@@ -1,401 +1,401 @@
 {
-  "Header": {
-    "WolvenKitVersion": "8.11.0",
-    "WKitJsonVersion": "0.0.8",
-    "GameVersion": 2000,
-    "ExportedDateTime": "2023-10-15T16:38:37.2577051Z",
-    "DataType": "CR2W",
-    "ArchiveFileName": "E:\\Tools\\mods\\cp77\\tools\\proj\\PersistentBulletHoles\\source\\archive\\base\\fx\\weapons\\impacts\\_common\\tech\\small_cal\\imp_tech_small_decal_piercing.effect"
-  },
-  "Data": {
-    "Version": 195,
-    "BuildVersion": 0,
-    "RootChunk": {
-      "$type": "worldEffect",
-      "cookingPlatform": "PLATFORM_PC",
-      "effectLoops": [],
-      "events": [
-        {
-          "HandleId": "0",
-          "Data": {
-            "$type": "effectTrackItemPointLight",
-            "clampAttenuation": 1,
-            "color": {
-              "$type": "Color",
-              "Alpha": 255,
-              "Blue": 158,
-              "Green": 191,
-              "Red": 233
-            },
-            "colorGroupSaturation": 100,
-            "envColorGroup": "ECG_Default",
-            "EV": 0,
-            "flicker": {
-              "$type": "rendSLightFlickering",
-              "flickerPeriod": 0.200000003,
-              "flickerStrength": 0,
-              "positionOffset": 0
-            },
-            "intensity": {
-              "$type": "effectEffectParameterEvaluatorFloat",
-              "evaluator": {
-                "HandleId": "1",
-                "Data": {
-                  "$type": "CEvaluatorFloatCurve",
-                  "curves": {
-                    "InterpolationType": "BezierCubic",
-                    "LinkType": "ESLT_Normal",
-                    "Elements": [
-                      {
-                        "Point": 0,
-                        "Value": 0
-                      },
-                      {
-                        "Point": 0.03782,
-                        "Value": 21.0273819
-                      },
-                      {
-                        "Point": 0.043333,
-                        "Value": 120
-                      },
-                      {
-                        "Point": 0.065,
-                        "Value": 120
-                      },
-                      {
-                        "Point": 0.197639,
-                        "Value": 121.897263
-                      },
-                      {
-                        "Point": 0.635836,
-                        "Value": 13.4383345
-                      },
-                      {
-                        "Point": 1,
-                        "Value": 0
-                      }
-                    ]
-                  },
-                  "numberOfCurveSamples": 16
-                }
-              },
-              "inputParameterIsPostMultiplier": 0,
-              "inputParameterOverride": {
-                "$type": "CName",
-                "$storage": "string",
-                "$value": "None"
-              }
-            },
-            "offset": {
-              "$type": "Vector3",
-              "X": 0,
-              "Y": 0,
-              "Z": 0.200000003
-            },
-            "radius": {
-              "$type": "effectEffectParameterEvaluatorFloat",
-              "evaluator": {
-                "HandleId": "2",
-                "Data": {
-                  "$type": "CEvaluatorFloatConst",
-                  "value": 1.5
-                }
-              },
-              "inputParameterIsPostMultiplier": 0,
-              "inputParameterOverride": {
-                "$type": "CName",
-                "$storage": "string",
-                "$value": "None"
-              }
-            },
-            "roughnessBias": 0,
-            "ruid": "1668907399048105984",
-            "sceneDiffuse": 1,
-            "sceneSpecular": 1,
-            "timeBegin": 0,
-            "timeDuration": 0.0580010191,
-            "tint": {
-              "$type": "effectEffectParameterEvaluatorColor",
-              "evaluator": {
-                "HandleId": "3",
-                "Data": {
-                  "$type": "CEvaluatorColorConst",
-                  "value": {
-                    "$type": "Color",
-                    "Alpha": 0,
-                    "Blue": 0,
-                    "Green": 0,
-                    "Red": 0
-                  }
-                }
-              },
-              "inputParameterOverride": {
-                "$type": "CName",
-                "$storage": "string",
-                "$value": "None"
-              }
-            },
-            "useInGI": 0,
-            "useInParticles": 1,
-            "useInTransparents": 1,
-            "useInVolFog": 0
-          }
-        },
-        {
-          "HandleId": "4",
-          "Data": {
-            "$type": "effectTrackItemDecal",
-            "additionalRotation": 1,
-            "atlasFrameEnd": -1,
-            "atlasFrameStart": -1,
-            "decalRenderMode": "DRM_AllStatic",
-            "emissiveScale": null,
-            "fadeInTime": 0,
-            "fadeOutTime": 15,
-            "horizontalFlip": 0,
-            "isAttached": 1,
-            "isStretchEnabled": 0,
-            "material": {
-              "DepotPath": {
-                "$type": "ResourcePath",
-                "$storage": "string",
-                "$value": "base\\fx\\weapons\\impacts\\plastic\\imp_plastic_mat.mi"
-              },
-              "Flags": "Default"
-            },
-            "normalsBlendingMode": "AlphaBlending",
-            "normalThreshold": 15,
-            "orderPriority": "Priority1",
-            "randomAtlasing": 1,
-            "randomRotation": 1,
-            "ruid": "2160907117385596928",
-            "scale": {
-              "HandleId": "5",
-              "Data": {
-                "$type": "CEvaluatorVectorRandomUniform",
-                "freeAxes": "FVA_Three",
-                "lockW": 0,
-                "lockX": 1,
-                "lockY": 1,
-                "lockZ": 0,
-                "max": {
-                  "$type": "Vector4",
-                  "W": 0,
-                  "X": 0.0900000036,
-                  "Y": 0.0900000036,
-                  "Z": 0.400000006
-                },
-                "min": {
-                  "$type": "Vector4",
-                  "W": 0,
-                  "X": 0.0900000036,
-                  "Y": 0.0900000036,
-                  "Z": 0.400000006
-                },
-                "spill": 1
-              }
-            },
-            "surfaceType": "ROT_Static",
-            "timeBegin": 0,
-            "timeDuration": 300,
-            "verticalFlip": 0
-          }
-        },
-        {
-          "HandleId": "6",
-          "Data": {
-            "$type": "effectTrackItemDecal",
-            "additionalRotation": 1,
-            "atlasFrameEnd": -1,
-            "atlasFrameStart": -1,
-            "decalRenderMode": "DRM_AllStatic",
-            "emissiveScale": {
-              "HandleId": "7",
-              "Data": {
-                "$type": "CEvaluatorVectorCurve",
-                "curves": {
-                  "InterpolationType": "BezierCubic",
-                  "LinkType": "ESLT_Normal",
-                  "Elements": [
-                    {
-                      "Point": 0,
-                      "Value": {
-                        "$type": "Vector4",
-                        "W": 1,
-                        "X": 1,
-                        "Y": 1,
-                        "Z": 1
-                      }
-                    },
-                    {
-                      "Point": 0.066667,
-                      "Value": {
-                        "$type": "Vector4",
-                        "W": 1,
-                        "X": 1,
-                        "Y": 1,
-                        "Z": 1
-                      }
-                    },
-                    {
-                      "Point": 0.619068,
-                      "Value": {
-                        "$type": "Vector4",
-                        "W": 1,
-                        "X": 1,
-                        "Y": 1,
-                        "Z": 1
-                      }
-                    },
-                    {
-                      "Point": 0.685736,
-                      "Value": {
-                        "$type": "Vector4",
-                        "W": 1,
-                        "X": 1,
-                        "Y": 1,
-                        "Z": 1
-                      }
-                    },
-                    {
-                      "Point": 0.818847,
-                      "Value": {
-                        "$type": "Vector4",
-                        "W": 0.990323007,
-                        "X": 0.990323007,
-                        "Y": 0.990323007,
-                        "Z": 0.990323007
-                      }
-                    },
-                    {
-                      "Point": 0.999,
-                      "Value": {
-                        "$type": "Vector4",
-                        "W": 0.402438998,
-                        "X": 0.402438998,
-                        "Y": 0.402438998,
-                        "Z": 0.402438998
-                      }
-                    },
-                    {
-                      "Point": 1,
-                      "Value": {
-                        "$type": "Vector4",
-                        "W": 0,
-                        "X": 0,
-                        "Y": 0,
-                        "Z": 0
-                      }
-                    }
-                  ]
-                },
-                "freeAxes": "FVA_Three",
-                "numberOfCurveSamples": 16,
-                "spill": 1
-              }
-            },
-            "fadeInTime": 0,
-            "fadeOutTime": 2,
-            "horizontalFlip": 0,
-            "isAttached": 1,
-            "isStretchEnabled": 0,
-            "material": {
-              "DepotPath": {
-                "$type": "ResourcePath",
-                "$storage": "string",
-                "$value": "base\\fx\\weapons\\impacts\\_common\\tech\\percing_tech_weapons_decal_emissive.mi"
-              },
-              "Flags": "Default"
-            },
-            "normalsBlendingMode": "AlphaBlending",
-            "normalThreshold": 15,
-            "orderPriority": "Priority0",
-            "randomAtlasing": 1,
-            "randomRotation": 1,
-            "ruid": "2160954351070330880",
-            "scale": {
-              "HandleId": "8",
-              "Data": {
-                "$type": "CEvaluatorVectorConst",
-                "freeAxes": "FVA_Three",
-                "spill": 1,
-                "value": {
-                  "$type": "Vector4",
-                  "W": 1,
-                  "X": 0.0700000003,
-                  "Y": 0.0700000003,
-                  "Z": 0.400000006
-                }
-              }
-            },
-            "surfaceType": "ROT_Static",
-            "timeBegin": 0,
-            "timeDuration": 4,
-            "verticalFlip": 0
-          }
-        }
-      ],
-      "inputParameterNames": [],
-      "length": 300,
-      "name": {
-        "$type": "CName",
-        "$storage": "string",
-        "$value": "None"
-      },
-      "trackRoot": {
-        "HandleId": "9",
-        "Data": {
-          "$type": "effectTrackGroup",
-          "componentName": {
-            "$type": "CName",
-            "$storage": "string",
-            "$value": "None"
-          },
-          "tracks": [
-            {
-              "HandleId": "10",
-              "Data": {
-                "$type": "effectTrack",
-                "items": []
-              }
-            },
-            {
-              "HandleId": "11",
-              "Data": {
-                "$type": "effectTrack",
-                "items": [
-                  {
-                    "HandleRefId": "4"
-                  }
-                ]
-              }
-            },
-            {
-              "HandleId": "12",
-              "Data": {
-                "$type": "effectTrack",
-                "items": [
-                  {
-                    "HandleRefId": "0"
-                  }
-                ]
-              }
-            },
-            {
-              "HandleId": "13",
-              "Data": {
-                "$type": "effectTrack",
-                "items": [
-                  {
-                    "HandleRefId": "6"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
-    },
-    "EmbeddedFiles": []
-  }
+	"Header": {
+		"WolvenKitVersion": "8.12.2-nightly.2024-01-28\u002Ba06de9d084640090b6fdccf8997a70b4d142f1e8",
+		"WKitJsonVersion": "0.0.8",
+		"GameVersion": 2100,
+		"ExportedDateTime": "2024-02-03T14:54:45.4545207Z",
+		"DataType": "CR2W",
+		"ArchiveFileName": "E:\\Tools\\mods\\cp77\\tools\\proj\\PersistentBulletHoles10Minutes\\source\\archive\\base\\fx\\weapons\\impacts\\_common\\tech\\small_cal\\imp_tech_small_decal_piercing.effect"
+	},
+	"Data": {
+		"Version": 195,
+		"BuildVersion": 0,
+		"RootChunk": {
+			"$type": "worldEffect",
+			"cookingPlatform": "PLATFORM_PC",
+			"effectLoops": [],
+			"events": [
+				{
+					"HandleId": "0",
+					"Data": {
+						"$type": "effectTrackItemPointLight",
+						"clampAttenuation": 1,
+						"color": {
+							"$type": "Color",
+							"Alpha": 255,
+							"Blue": 158,
+							"Green": 191,
+							"Red": 233
+						},
+						"colorGroupSaturation": 100,
+						"envColorGroup": "ECG_Default",
+						"EV": 0,
+						"flicker": {
+							"$type": "rendSLightFlickering",
+							"flickerPeriod": 0.200000003,
+							"flickerStrength": 0,
+							"positionOffset": 0
+						},
+						"intensity": {
+							"$type": "effectEffectParameterEvaluatorFloat",
+							"evaluator": {
+								"HandleId": "1",
+								"Data": {
+									"$type": "CEvaluatorFloatCurve",
+									"curves": {
+										"InterpolationType": "BezierCubic",
+										"LinkType": "ESLT_Normal",
+										"Elements": [
+											{
+												"Point": 0,
+												"Value": 0
+											},
+											{
+												"Point": 0.03782,
+												"Value": 21.0273819
+											},
+											{
+												"Point": 0.043333,
+												"Value": 120
+											},
+											{
+												"Point": 0.065,
+												"Value": 120
+											},
+											{
+												"Point": 0.197639,
+												"Value": 121.897263
+											},
+											{
+												"Point": 0.635836,
+												"Value": 13.4383345
+											},
+											{
+												"Point": 1,
+												"Value": 0
+											}
+										]
+									},
+									"numberOfCurveSamples": 16
+								}
+							},
+							"inputParameterIsPostMultiplier": 0,
+							"inputParameterOverride": {
+								"$type": "CName",
+								"$storage": "string",
+								"$value": "None"
+							}
+						},
+						"offset": {
+							"$type": "Vector3",
+							"X": 0,
+							"Y": 0,
+							"Z": 0.200000003
+						},
+						"radius": {
+							"$type": "effectEffectParameterEvaluatorFloat",
+							"evaluator": {
+								"HandleId": "2",
+								"Data": {
+									"$type": "CEvaluatorFloatConst",
+									"value": 1.5
+								}
+							},
+							"inputParameterIsPostMultiplier": 0,
+							"inputParameterOverride": {
+								"$type": "CName",
+								"$storage": "string",
+								"$value": "None"
+							}
+						},
+						"roughnessBias": 0,
+						"ruid": "1668907399048105984",
+						"sceneDiffuse": 1,
+						"sceneSpecular": 1,
+						"timeBegin": 0,
+						"timeDuration": 0.0580010191,
+						"tint": {
+							"$type": "effectEffectParameterEvaluatorColor",
+							"evaluator": {
+								"HandleId": "3",
+								"Data": {
+									"$type": "CEvaluatorColorConst",
+									"value": {
+										"$type": "Color",
+										"Alpha": 0,
+										"Blue": 0,
+										"Green": 0,
+										"Red": 0
+									}
+								}
+							},
+							"inputParameterOverride": {
+								"$type": "CName",
+								"$storage": "string",
+								"$value": "None"
+							}
+						},
+						"useInGI": 0,
+						"useInParticles": 1,
+						"useInTransparents": 1,
+						"useInVolFog": 0
+					}
+				},
+				{
+					"HandleId": "4",
+					"Data": {
+						"$type": "effectTrackItemDecal",
+						"additionalRotation": 1,
+						"atlasFrameEnd": -1,
+						"atlasFrameStart": -1,
+						"decalRenderMode": "DRM_AllStatic",
+						"emissiveScale": null,
+						"fadeInTime": 0,
+						"fadeOutTime": 15,
+						"horizontalFlip": 0,
+						"isAttached": 1,
+						"isStretchEnabled": 0,
+						"material": {
+							"DepotPath": {
+								"$type": "ResourcePath",
+								"$storage": "string",
+								"$value": "base\\fx\\weapons\\impacts\\plastic\\imp_plastic_mat.mi"
+							},
+							"Flags": "Default"
+						},
+						"normalsBlendingMode": "AlphaBlending",
+						"normalThreshold": 15,
+						"orderPriority": "Priority1",
+						"randomAtlasing": 1,
+						"randomRotation": 1,
+						"ruid": "2160907117385596928",
+						"scale": {
+							"HandleId": "5",
+							"Data": {
+								"$type": "CEvaluatorVectorRandomUniform",
+								"freeAxes": "FVA_Three",
+								"lockW": 0,
+								"lockX": 1,
+								"lockY": 1,
+								"lockZ": 0,
+								"max": {
+									"$type": "Vector4",
+									"W": 0,
+									"X": 0.180000007,
+									"Y": 0.180000007,
+									"Z": 0.400000006
+								},
+								"min": {
+									"$type": "Vector4",
+									"W": 0,
+									"X": 0.180000007,
+									"Y": 0.180000007,
+									"Z": 0.400000006
+								},
+								"spill": 1
+							}
+						},
+						"surfaceType": "ROT_Static",
+						"timeBegin": 0,
+						"timeDuration": 300,
+						"verticalFlip": 0
+					}
+				},
+				{
+					"HandleId": "6",
+					"Data": {
+						"$type": "effectTrackItemDecal",
+						"additionalRotation": 1,
+						"atlasFrameEnd": -1,
+						"atlasFrameStart": -1,
+						"decalRenderMode": "DRM_AllStatic",
+						"emissiveScale": {
+							"HandleId": "7",
+							"Data": {
+								"$type": "CEvaluatorVectorCurve",
+								"curves": {
+									"InterpolationType": "BezierCubic",
+									"LinkType": "ESLT_Normal",
+									"Elements": [
+										{
+											"Point": 0,
+											"Value": {
+												"$type": "Vector4",
+												"W": 1,
+												"X": 1,
+												"Y": 1,
+												"Z": 1
+											}
+										},
+										{
+											"Point": 0.066667,
+											"Value": {
+												"$type": "Vector4",
+												"W": 1,
+												"X": 1,
+												"Y": 1,
+												"Z": 1
+											}
+										},
+										{
+											"Point": 0.619068,
+											"Value": {
+												"$type": "Vector4",
+												"W": 1,
+												"X": 1,
+												"Y": 1,
+												"Z": 1
+											}
+										},
+										{
+											"Point": 0.685736,
+											"Value": {
+												"$type": "Vector4",
+												"W": 1,
+												"X": 1,
+												"Y": 1,
+												"Z": 1
+											}
+										},
+										{
+											"Point": 0.818847,
+											"Value": {
+												"$type": "Vector4",
+												"W": 0.990323007,
+												"X": 0.990323007,
+												"Y": 0.990323007,
+												"Z": 0.990323007
+											}
+										},
+										{
+											"Point": 0.999,
+											"Value": {
+												"$type": "Vector4",
+												"W": 0.402438998,
+												"X": 0.402438998,
+												"Y": 0.402438998,
+												"Z": 0.402438998
+											}
+										},
+										{
+											"Point": 1,
+											"Value": {
+												"$type": "Vector4",
+												"W": 0,
+												"X": 0,
+												"Y": 0,
+												"Z": 0
+											}
+										}
+									]
+								},
+								"freeAxes": "FVA_Three",
+								"numberOfCurveSamples": 16,
+								"spill": 1
+							}
+						},
+						"fadeInTime": 0,
+						"fadeOutTime": 2,
+						"horizontalFlip": 0,
+						"isAttached": 1,
+						"isStretchEnabled": 0,
+						"material": {
+							"DepotPath": {
+								"$type": "ResourcePath",
+								"$storage": "string",
+								"$value": "base\\fx\\weapons\\impacts\\_common\\tech\\percing_tech_weapons_decal_emissive.mi"
+							},
+							"Flags": "Default"
+						},
+						"normalsBlendingMode": "AlphaBlending",
+						"normalThreshold": 15,
+						"orderPriority": "Priority0",
+						"randomAtlasing": 1,
+						"randomRotation": 1,
+						"ruid": "2160954351070330880",
+						"scale": {
+							"HandleId": "8",
+							"Data": {
+								"$type": "CEvaluatorVectorConst",
+								"freeAxes": "FVA_Three",
+								"spill": 1,
+								"value": {
+									"$type": "Vector4",
+									"W": 1,
+									"X": 0.140000001,
+									"Y": 0.140000001,
+									"Z": 0.400000006
+								}
+							}
+						},
+						"surfaceType": "ROT_Static",
+						"timeBegin": 0,
+						"timeDuration": 4,
+						"verticalFlip": 0
+					}
+				}
+			],
+			"inputParameterNames": [],
+			"length": 300,
+			"name": {
+				"$type": "CName",
+				"$storage": "string",
+				"$value": "None"
+			},
+			"trackRoot": {
+				"HandleId": "9",
+				"Data": {
+					"$type": "effectTrackGroup",
+					"componentName": {
+						"$type": "CName",
+						"$storage": "string",
+						"$value": "None"
+					},
+					"tracks": [
+						{
+							"HandleId": "10",
+							"Data": {
+								"$type": "effectTrack",
+								"items": []
+							}
+						},
+						{
+							"HandleId": "11",
+							"Data": {
+								"$type": "effectTrack",
+								"items": [
+									{
+										"HandleRefId": "4"
+									}
+								]
+							}
+						},
+						{
+							"HandleId": "12",
+							"Data": {
+								"$type": "effectTrack",
+								"items": [
+									{
+										"HandleRefId": "0"
+									}
+								]
+							}
+						},
+						{
+							"HandleId": "13",
+							"Data": {
+								"$type": "effectTrack",
+								"items": [
+									{
+										"HandleRefId": "6"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		},
+		"EmbeddedFiles": []
+	}
 }

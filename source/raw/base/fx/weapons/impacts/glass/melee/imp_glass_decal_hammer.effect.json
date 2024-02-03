@@ -1,118 +1,118 @@
 {
-  "Header": {
-    "WolvenKitVersion": "8.11.0",
-    "WKitJsonVersion": "0.0.8",
-    "GameVersion": 2000,
-    "ExportedDateTime": "2023-10-15T16:38:36.8509229Z",
-    "DataType": "CR2W",
-    "ArchiveFileName": "E:\\Tools\\mods\\cp77\\tools\\proj\\PersistentBulletHoles\\source\\archive\\base\\fx\\weapons\\impacts\\glass\\melee\\imp_glass_decal_hammer.effect"
-  },
-  "Data": {
-    "Version": 195,
-    "BuildVersion": 0,
-    "RootChunk": {
-      "$type": "worldEffect",
-      "cookingPlatform": "PLATFORM_PC",
-      "effectLoops": [],
-      "events": [
-        {
-          "HandleId": "0",
-          "Data": {
-            "$type": "effectTrackItemForwardDecal",
-            "additionalRotation": 0,
-            "appearance": {
-              "$type": "CName",
-              "$storage": "string",
-              "$value": "default"
-            },
-            "fadeInTime": 0,
-            "fadeOutTime": 15,
-            "frame": 0,
-            "isAttached": 1,
-            "mesh": {
-              "DepotPath": {
-                "$type": "ResourcePath",
-                "$storage": "string",
-                "$value": "base\\fx\\weapons\\impacts\\glass_bulletproof\\fx_imp_glass_bulletproof_bullet_crack.mesh"
-              },
-              "Flags": "Default"
-            },
-            "randomAppearance": 0,
-            "randomRotation": 1,
-            "ruid": "2533558149596553216",
-            "scale": {
-              "HandleId": "1",
-              "Data": {
-                "$type": "CEvaluatorVectorRandomUniform",
-                "freeAxes": "FVA_Three",
-                "lockW": 0,
-                "lockX": 1,
-                "lockY": 1,
-                "lockZ": 1,
-                "max": {
-                  "$type": "Vector4",
-                  "W": 0,
-                  "X": 0.550000012,
-                  "Y": 0.550000012,
-                  "Z": 0.550000012
-                },
-                "min": {
-                  "$type": "Vector4",
-                  "W": 0,
-                  "X": 0.449999988,
-                  "Y": 0.449999988,
-                  "Z": 0.449999988
-                },
-                "spill": 1
-              }
-            },
-            "sizeThreshold": 0.349999994,
-            "subUVx": 1,
-            "subUVy": 1,
-            "timeBegin": 0,
-            "timeDuration": 300
-          }
-        }
-      ],
-      "inputParameterNames": [],
-      "length": 300,
-      "name": {
-        "$type": "CName",
-        "$storage": "string",
-        "$value": "None"
-      },
-      "trackRoot": {
-        "HandleId": "2",
-        "Data": {
-          "$type": "effectTrackGroup",
-          "componentName": {
-            "$type": "CName",
-            "$storage": "string",
-            "$value": "None"
-          },
-          "tracks": [
-            {
-              "HandleId": "3",
-              "Data": {
-                "$type": "effectTrack",
-                "items": []
-              }
-            },
-            {
-              "HandleId": "4",
-              "Data": {
-                "$type": "effectTrack",
-                "items": [
-                  {
-                    "HandleRefId": "0"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
-    },
-    "EmbeddedFiles": []
-  }
+	"Header": {
+		"WolvenKitVersion": "8.12.2-nightly.2024-01-28\u002Ba06de9d084640090b6fdccf8997a70b4d142f1e8",
+		"WKitJsonVersion": "0.0.8",
+		"GameVersion": 2100,
+		"ExportedDateTime": "2024-02-03T14:54:45.2171625Z",
+		"DataType": "CR2W",
+		"ArchiveFileName": "E:\\Tools\\mods\\cp77\\tools\\proj\\PersistentBulletHoles10Minutes\\source\\archive\\base\\fx\\weapons\\impacts\\glass\\melee\\imp_glass_decal_hammer.effect"
+	},
+	"Data": {
+		"Version": 195,
+		"BuildVersion": 0,
+		"RootChunk": {
+			"$type": "worldEffect",
+			"cookingPlatform": "PLATFORM_PC",
+			"effectLoops": [],
+			"events": [
+				{
+					"HandleId": "0",
+					"Data": {
+						"$type": "effectTrackItemForwardDecal",
+						"additionalRotation": 0,
+						"appearance": {
+							"$type": "CName",
+							"$storage": "string",
+							"$value": "default"
+						},
+						"fadeInTime": 0,
+						"fadeOutTime": 15,
+						"frame": 0,
+						"isAttached": 1,
+						"mesh": {
+							"DepotPath": {
+								"$type": "ResourcePath",
+								"$storage": "string",
+								"$value": "base\\fx\\weapons\\impacts\\glass_bulletproof\\fx_imp_glass_bulletproof_bullet_crack.mesh"
+							},
+							"Flags": "Default"
+						},
+						"randomAppearance": 0,
+						"randomRotation": 1,
+						"ruid": "2533558149596553216",
+						"scale": {
+							"HandleId": "1",
+							"Data": {
+								"$type": "CEvaluatorVectorRandomUniform",
+								"freeAxes": "FVA_Three",
+								"lockW": 0,
+								"lockX": 1,
+								"lockY": 1,
+								"lockZ": 1,
+								"max": {
+									"$type": "Vector4",
+									"W": 0,
+									"X": 0.550000012,
+									"Y": 0.550000012,
+									"Z": 0.550000012
+								},
+								"min": {
+									"$type": "Vector4",
+									"W": 0,
+									"X": 0.449999988,
+									"Y": 0.449999988,
+									"Z": 0.449999988
+								},
+								"spill": 1
+							}
+						},
+						"sizeThreshold": 0.349999994,
+						"subUVx": 1,
+						"subUVy": 1,
+						"timeBegin": 0,
+						"timeDuration": 300
+					}
+				}
+			],
+			"inputParameterNames": [],
+			"length": 300,
+			"name": {
+				"$type": "CName",
+				"$storage": "string",
+				"$value": "None"
+			},
+			"trackRoot": {
+				"HandleId": "2",
+				"Data": {
+					"$type": "effectTrackGroup",
+					"componentName": {
+						"$type": "CName",
+						"$storage": "string",
+						"$value": "None"
+					},
+					"tracks": [
+						{
+							"HandleId": "3",
+							"Data": {
+								"$type": "effectTrack",
+								"items": []
+							}
+						},
+						{
+							"HandleId": "4",
+							"Data": {
+								"$type": "effectTrack",
+								"items": [
+									{
+										"HandleRefId": "0"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		},
+		"EmbeddedFiles": []
+	}
 }

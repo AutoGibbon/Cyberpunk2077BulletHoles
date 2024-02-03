@@ -1,109 +1,109 @@
 {
-  "Header": {
-    "WolvenKitVersion": "8.11.0",
-    "WKitJsonVersion": "0.0.8",
-    "GameVersion": 2000,
-    "ExportedDateTime": "2023-10-15T16:38:37.0344521Z",
-    "DataType": "CR2W",
-    "ArchiveFileName": "E:\\Tools\\mods\\cp77\\tools\\proj\\PersistentBulletHoles\\source\\archive\\base\\fx\\weapons\\impacts\\upholstery_car\\melee\\imp_upholstery_car_decal_knife.effect"
-  },
-  "Data": {
-    "Version": 195,
-    "BuildVersion": 0,
-    "RootChunk": {
-      "$type": "worldEffect",
-      "cookingPlatform": "PLATFORM_PC",
-      "effectLoops": [],
-      "events": [
-        {
-          "HandleId": "0",
-          "Data": {
-            "$type": "effectTrackItemDecal",
-            "additionalRotation": 0,
-            "atlasFrameEnd": -1,
-            "atlasFrameStart": -1,
-            "decalRenderMode": "DRM_ObjectType",
-            "emissiveScale": null,
-            "fadeInTime": 0,
-            "fadeOutTime": 15,
-            "horizontalFlip": 0,
-            "isAttached": 1,
-            "isStretchEnabled": 0,
-            "material": {
-              "DepotPath": {
-                "$type": "ResourcePath",
-                "$storage": "string",
-                "$value": "base\\fx\\weapons\\impacts\\wood\\melee\\imp_wood_mat_katana.mi"
-              },
-              "Flags": "Default"
-            },
-            "normalsBlendingMode": "AlphaBlending",
-            "normalThreshold": 15,
-            "orderPriority": "Priority3",
-            "randomAtlasing": 0,
-            "randomRotation": 0,
-            "ruid": "923965123753934848",
-            "scale": {
-              "HandleId": "1",
-              "Data": {
-                "$type": "CEvaluatorVectorConst",
-                "freeAxes": "FVA_Three",
-                "spill": 1,
-                "value": {
-                  "$type": "Vector4",
-                  "W": 1,
-                  "X": 0.100000001,
-                  "Y": 0.0500000007,
-                  "Z": 0.400000006
-                }
-              }
-            },
-            "surfaceType": "ROT_Vehicle",
-            "timeBegin": 0,
-            "timeDuration": 300,
-            "verticalFlip": 0
-          }
-        }
-      ],
-      "inputParameterNames": [],
-      "length": 300,
-      "name": {
-        "$type": "CName",
-        "$storage": "string",
-        "$value": "None"
-      },
-      "trackRoot": {
-        "HandleId": "2",
-        "Data": {
-          "$type": "effectTrackGroup",
-          "componentName": {
-            "$type": "CName",
-            "$storage": "string",
-            "$value": "None"
-          },
-          "tracks": [
-            {
-              "HandleId": "3",
-              "Data": {
-                "$type": "effectTrack",
-                "items": []
-              }
-            },
-            {
-              "HandleId": "4",
-              "Data": {
-                "$type": "effectTrack",
-                "items": [
-                  {
-                    "HandleRefId": "0"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
-    },
-    "EmbeddedFiles": []
-  }
+	"Header": {
+		"WolvenKitVersion": "8.12.2-nightly.2024-01-28\u002Ba06de9d084640090b6fdccf8997a70b4d142f1e8",
+		"WKitJsonVersion": "0.0.8",
+		"GameVersion": 2100,
+		"ExportedDateTime": "2024-02-03T14:54:45.3371502Z",
+		"DataType": "CR2W",
+		"ArchiveFileName": "E:\\Tools\\mods\\cp77\\tools\\proj\\PersistentBulletHoles10Minutes\\source\\archive\\base\\fx\\weapons\\impacts\\upholstery_car\\melee\\imp_upholstery_car_decal_knife.effect"
+	},
+	"Data": {
+		"Version": 195,
+		"BuildVersion": 0,
+		"RootChunk": {
+			"$type": "worldEffect",
+			"cookingPlatform": "PLATFORM_PC",
+			"effectLoops": [],
+			"events": [
+				{
+					"HandleId": "0",
+					"Data": {
+						"$type": "effectTrackItemDecal",
+						"additionalRotation": 0,
+						"atlasFrameEnd": -1,
+						"atlasFrameStart": -1,
+						"decalRenderMode": "DRM_ObjectType",
+						"emissiveScale": null,
+						"fadeInTime": 0,
+						"fadeOutTime": 15,
+						"horizontalFlip": 0,
+						"isAttached": 1,
+						"isStretchEnabled": 0,
+						"material": {
+							"DepotPath": {
+								"$type": "ResourcePath",
+								"$storage": "string",
+								"$value": "base\\fx\\weapons\\impacts\\wood\\melee\\imp_wood_mat_katana.mi"
+							},
+							"Flags": "Default"
+						},
+						"normalsBlendingMode": "AlphaBlending",
+						"normalThreshold": 15,
+						"orderPriority": "Priority3",
+						"randomAtlasing": 0,
+						"randomRotation": 0,
+						"ruid": "923965123753934848",
+						"scale": {
+							"HandleId": "1",
+							"Data": {
+								"$type": "CEvaluatorVectorConst",
+								"freeAxes": "FVA_Three",
+								"spill": 1,
+								"value": {
+									"$type": "Vector4",
+									"W": 1,
+									"X": 0.100000001,
+									"Y": 0.0500000007,
+									"Z": 0.400000006
+								}
+							}
+						},
+						"surfaceType": "ROT_Vehicle",
+						"timeBegin": 0,
+						"timeDuration": 300,
+						"verticalFlip": 0
+					}
+				}
+			],
+			"inputParameterNames": [],
+			"length": 300,
+			"name": {
+				"$type": "CName",
+				"$storage": "string",
+				"$value": "None"
+			},
+			"trackRoot": {
+				"HandleId": "2",
+				"Data": {
+					"$type": "effectTrackGroup",
+					"componentName": {
+						"$type": "CName",
+						"$storage": "string",
+						"$value": "None"
+					},
+					"tracks": [
+						{
+							"HandleId": "3",
+							"Data": {
+								"$type": "effectTrack",
+								"items": []
+							}
+						},
+						{
+							"HandleId": "4",
+							"Data": {
+								"$type": "effectTrack",
+								"items": [
+									{
+										"HandleRefId": "0"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		},
+		"EmbeddedFiles": []
+	}
 }

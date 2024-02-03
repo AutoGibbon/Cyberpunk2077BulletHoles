@@ -1,11 +1,11 @@
 {
   "Header": {
-    "WolvenKitVersion": "8.11.0",
+    "WolvenKitVersion": "8.12.2-nightly.2024-01-28\u002Ba06de9d084640090b6fdccf8997a70b4d142f1e8",
     "WKitJsonVersion": "0.0.8",
-    "GameVersion": 2000,
-    "ExportedDateTime": "2023-10-15T16:38:36.1921102Z",
+    "GameVersion": 2100,
+    "ExportedDateTime": "2024-02-03T14:54:44.9063281Z",
     "DataType": "CR2W",
-    "ArchiveFileName": "E:\\Tools\\mods\\cp77\\tools\\proj\\PersistentBulletHoles\\source\\archive\\base\\fx\\weapons\\explosives\\cutting_grenade\\w_explosives_001_cutting_grenade_decal.effect"
+    "ArchiveFileName": "E:\\Tools\\mods\\cp77\\tools\\proj\\PersistentBulletHoles10Minutes\\source\\archive\\base\\fx\\weapons\\explosives\\cutting_grenade\\w_explosives_001_cutting_grenade_decal.effect"
   },
   "Data": {
     "Version": 195,
